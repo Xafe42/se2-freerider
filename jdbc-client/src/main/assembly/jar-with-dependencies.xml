@@ -1,0 +1,12 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/2.2.0">
+  <id>jar-with-dependencies</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>/lib</outputDirectory>
+      <scope>runtime</scope>
+    </dependencySet>
+  </dependencySets>
+</assembly>
